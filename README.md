@@ -17,6 +17,14 @@ To analyse which activity metrics (steps, intensity, sedentary time) are most st
 
 ---
 
+## 📂 Dataset
+
+This dataset contains daily activity data from Fitbit users, including steps, calories burned, and activity intensity levels.
+
+Each row represents one user's activity for a given day.
+
+---
+
 ## 🔍 Key Findings  
 
 - **Total Steps** show a moderate positive correlation with calories burned, indicating that overall movement contributes to energy expenditure.
@@ -24,6 +32,16 @@ To analyse which activity metrics (steps, intensity, sedentary time) are most st
 - **Very Active Minutes** have a moderate-to-strong positive correlation with calories burned, suggesting that higher intensity activity significantly increases calorie expenditure.
 
 - **Lightly Active Minutes** show a negative relationship with sedentary time, suggesting that increased light activity replaces sedentary behaviour throughout the day.
+
+---
+
+## 📊 Visualisations
+
+### Steps vs Calories
+![Steps vs Calories](steps_vs_calories.png)
+
+### Steps vs Calories with Trend Line
+![Steps vs Calories Trend](steps_vs_calories_trend.png)
 
 ---
 
