@@ -18,11 +18,15 @@ plt.scatter(df["TotalSteps"], df["Calories"])
 plt.xlabel("Total Steps")
 plt.ylabel("Calories Burned")
 plt.title("Steps vs Calories")
+
+plt.savefig("steps_vs_calories.png")
 plt.show()
 
 # Regression plot
 sns.regplot(x="TotalSteps", y="Calories", data=df)
 plt.title("Steps vs Calories with Trend Line")
+
+plt.savefig("steps_vs_calories_trend.png")
 plt.show()
 
 # Multi-variable correlation
